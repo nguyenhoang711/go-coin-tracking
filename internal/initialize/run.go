@@ -10,6 +10,8 @@ func Run() {
 	LoadConfig()
 	InitLogger()
 	InitDB()
+	InitRedis()
+	InitKafka()
 
 	r := InitRouter()
 
